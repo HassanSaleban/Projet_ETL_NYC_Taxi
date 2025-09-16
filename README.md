@@ -37,6 +37,7 @@ Airflow/
 │── docker-compose.yaml           # Orchestration des services Airflow
 │── .env                          # Variables d’environnement (chemins, etc.)
 ```
+<img width="1904" height="988" alt="volume" src="https://github.com/user-attachments/assets/af97a4e2-7b8c-4ded-b855-06a9ba93b794" />
 
 ---
 
@@ -50,6 +51,8 @@ Airflow/
   - Vérification `HEAD` avant download
   - Skip si fichier déjà présent et complet
   - Extraction des métadonnées Parquet en JSON
+<img width="1578" height="531" alt="log1" src="https://github.com/user-attachments/assets/d7e028fa-e37c-44b4-9df4-f8cddb492a47" />
+<img width="1585" height="615" alt="log2" src="https://github.com/user-attachments/assets/c90db03e-1b01-4ee0-9706-caed4b1a8113" />
 
 ---
 
@@ -61,6 +64,7 @@ Airflow/
 - Idempotence :
   - Vérifie si le fichier existe déjà en sortie
   - Ne réécrit pas inutilement
+<img width="1888" height="985" alt="transformation" src="https://github.com/user-attachments/assets/44477ee3-148a-4eb6-bdad-b1627a4fb8f9" />
 
 ---
 
@@ -71,6 +75,7 @@ Airflow/
   ```
   exports/concatenation/yellow_year_<année>.parquet
   ```
+<img width="1896" height="975" alt="Concatenation" src="https://github.com/user-attachments/assets/b32e76b6-1a96-4896-b066-4866bc4e0c29" />
 
 ---
 
