@@ -129,4 +129,10 @@ Ainsi, les chemins deviennent POSIX dans les DAGs :
 - **Robustesse** : retry réseau, validation tailles téléchargées
 - **Modularité** : séparation utils / DAGs
 - **POSIX paths** : pour compatibilité entre Docker/Linux et Windows
-- **Dynamic Task Mapping** : parallélisation par année ou mois
+
+- ## 👤 Auteur
+
+- **Hassan Saleban**
+
+Mise en pratique de Airflow et polars dans le cadre de la formation Data Engineer a DigitalCity.
+
